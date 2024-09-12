@@ -1,10 +1,9 @@
 package TestGitP;
 
 public class TestGit1 
-
 {
 	
-	public void chrome()
+	public void Add()
 	{
 		int a=10;
 		int b=20;
@@ -13,17 +12,25 @@ public class TestGit1
 		c=a+b;
 		
 		System.out.println(c);	
-		
-		
 	}
-
-	public static void main(String[] args) 
 	
+	public void Sub()
+	{
+		int a=20;
+		int b=10;
+		int c=0;
+		
+		c=a-b;
+		
+		System.out.println(c);	
+	}	
+
+	public static void main(String[] args) 	
 	{
 		// TODO Auto-generated method stub
 		TestGit1 obj=new TestGit1();
-		obj.chrome();
-		
+		obj.Add();
+		obj.Sub();		
 		//test
 	}
 
